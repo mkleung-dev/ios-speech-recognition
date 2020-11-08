@@ -13,6 +13,7 @@
 		B91801F32556BF1600A4FA55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B91801F22556BF1600A4FA55 /* Preview Assets.xcassets */; };
 		B91801FE2556BF1700A4FA55 /* SpeechRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91801FD2556BF1700A4FA55 /* SpeechRecognitionTests.swift */; };
 		B91802092556BF1700A4FA55 /* SpeechRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91802082556BF1700A4FA55 /* SpeechRecognitionUITests.swift */; };
+		B918021A2556BF7100A4FA55 /* SpeechRecognitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91802192556BF7100A4FA55 /* SpeechRecognitionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		B91802042556BF1700A4FA55 /* SpeechRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91802082556BF1700A4FA55 /* SpeechRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionUITests.swift; sourceTree = "<group>"; };
 		B918020A2556BF1700A4FA55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B91802192556BF7100A4FA55 /* SpeechRecognitionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				B91801EB2556BF1500A4FA55 /* SpeechRecognitionApp.swift */,
+				B91802192556BF7100A4FA55 /* SpeechRecognitionController.swift */,
 				B91801ED2556BF1500A4FA55 /* ContentView.swift */,
 				B91801EF2556BF1600A4FA55 /* Assets.xcassets */,
 				B91801F42556BF1600A4FA55 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				B91801EE2556BF1500A4FA55 /* ContentView.swift in Sources */,
 				B91801EC2556BF1500A4FA55 /* SpeechRecognitionApp.swift in Sources */,
+				B918021A2556BF7100A4FA55 /* SpeechRecognitionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
